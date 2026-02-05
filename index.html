@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    
+    <title>Nikesh's Rock-Paper-Scissors</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.png" />
+
     <link rel="stylesheet" href="./rpsv5.css" />
   </head>
   <body>
@@ -41,11 +42,11 @@
         <div id="fromKeyboard">
           <p style="color: red">Press Keys:</p>
           <div id="keyR">
-            <p>R</p>
+            <p title="Press R from your keyboard">R</p>
           </div>
           <div id="keyPS">
-            <p>P</p>
-            <p>S</p>
+            <p title="Press P from your keyboard">P</p>
+            <p title="Press S from your keyboard">S</p>
           </div>
         </div>
 
@@ -62,16 +63,16 @@
         <p class="resultp">Play game to see result</p>
       </div>
 
-      <div id="ScoreCard">
-        <p>ScoreCard: <span class="dispscr"></span></p>
-      </div>
+      <div class="scCardFooter">
+        <div id="ScoreCard">
+          <p>ScoreCard: <span class="dispscr"></span></p>
+        </div>
 
-      <div id="footer">
-        <p onclick="resetScore('reset')">Reset Score</p>
+        <div id="footer">
+          <p onclick="resetScore('reset')">Reset Score</p>
+        </div>
       </div>
     </div>
-    <script src="./rpsv5.js">
-     
-    </script>
+    <script src="./rpsv5.js"></script>
   </body>
 </html>
