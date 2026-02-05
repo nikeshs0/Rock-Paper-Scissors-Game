@@ -2,7 +2,6 @@
   border: 0;
   margin: 0;
 }
-
 p {
   font-weight: bolder;
   font-size: 16px;
@@ -180,7 +179,7 @@ p {
   justify-content: center;
   height: 50px;
 }
-.scCardFooter{
+.scCardFooter {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -196,7 +195,7 @@ p {
 }
 #footer:hover {
   background-color: greenyellow;
-  color: black ;
+  color: black;
 }
 #fromKeyboard {
   display: flex;
@@ -234,7 +233,4 @@ p {
   align-items: center;
   justify-content: center;
   gap: 50px;
-}
-#keyR:hover{
-  
 }
