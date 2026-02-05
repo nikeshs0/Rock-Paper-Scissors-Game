@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./rpsv5.css" />
+  </head>
+  <body>
+    <div id="parent">
+      <div id="header">
+        <p id="header-p">Rock paper Scissors</p>
+      </div>
+
+      <div id="rpsIcons">
+        <div class="rpsIcons-imgDiv" onclick="playGame('Rock')">
+          <img class="rpsImg" src="./img/rock-emoji.png" alt="" />
+          <img class="stoneImgBck" src="./img/stonebck.gif" alt="" />
+        </div>
+
+        <div class="rpsIcons-imgDiv" onclick="playGame('Paper')">
+          <img class="rpsImg" src="./img/paper-emoji.png" alt="" />
+          <img class="paperImgBck" src="./img/Documents.gif" alt="" />
+        </div>
+
+        <div class="rpsIcons-imgDiv" onclick="playGame('Scissors')">
+          <img class="rpsImg" src="./img/scissors-emoji.png" alt="" />
+          <img class="scissorImgBck" src="./img/scissorbck.gif" alt="" />
+        </div>
+      </div>
+
+      <div id="choices">
+        <div id="computerChoice">
+          <p class="computerChoice-p">Computer's Choice:</p>
+          <div class="computerChoiceImg">
+            <p class="cmove"><img src="./img/rpsbacground.gif" alt="" /></p>
+          </div>
+        </div>
+
+        <div id="fromKeyboard">
+          <p style="color: red">Press Keys:</p>
+          <div id="keyR">
+            <p>R</p>
+          </div>
+          <div id="keyPS">
+            <p>P</p>
+            <p>S</p>
+          </div>
+        </div>
+
+        <div id="userChoice">
+          <p class="userChoice-p">User's Choice:</p>
+          <div class="userChoiceImg">
+            <p class="umove"><img src="./img/rpsbacground.gif" alt="" /></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="resultDiv">
+        <p>Result:</p>
+        <p class="resultp">Play game to see result</p>
+      </div>
+
+      <div id="ScoreCard">
+        <p>ScoreCard: <span class="dispscr"></span></p>
+      </div>
+
+      <div id="footer">
+        <p onclick="resetScore('reset')">Reset Score</p>
+      </div>
+    </div>
+    <script src="./rpsv5.js">
+     
+    </script>
+  </body>
+</html>
